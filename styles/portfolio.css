@@ -1,0 +1,121 @@
+@import "./index.css";
+*{
+  margin:0;
+}
+
+.portfolio {
+  text-align: center;
+  padding: 5em 0; 
+  height:58vh;
+  margin-top:50px;
+}
+
+.portfolio-items {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  width: 90%;
+  margin: 0 auto;
+  max-width: 75em; 
+}
+
+.portfolio-item {
+  position: relative;
+  overflow: hidden;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1 1 20rem;
+  -ms-flex: 1 1 20rem;
+  flex: 1 1 20rem; 
+}
+  .portfolio-item .portfolio-image {
+   padding:10px;
+    width: 100%; }
+  .portfolio-item figcaption {
+    position: absolute;
+    top: 100%;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    padding: 1em;
+    background: rgba(3, 175, 194, 0.75);
+    color: #FFFFFF;
+    text-align: left;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-transition: top ease-in-out 250ms;
+    -o-transition: top ease-in-out 250ms;
+    transition: top ease-in-out 250ms; 
+  }
+  .portfolio-item:hover figcaption,
+  .portfolio-item:focus figcaption {
+    top: 0; 
+  }
+
+.portfolio-title {
+  color: #FFFFFF;
+  font-size: 3rem;
+  margin-bottom: auto; 
+}
+  .portfolio-desc {
+    font-size:20px;
+  }
+  
+  .portfolio-link {
+    color: white;
+    font-weight: 900;
+    font-size: 1.1rem;
+    text-decoration: none;
+    border-bottom: 3px solid #FFFFFF;
+    -webkit-align-self: flex-start;
+    -ms-flex-item-align: start;
+    align-self: flex-start; 
+  }
+
+
+@media screen and (max-width: 450px) {
+  .portfolio{
+    height:85vh;
+  }
+  #item1 {
+    grid-column-start: 1;
+    grid-row-end: 2;
+  }
+  #item2 {
+    grid-column-start: 1;
+    grid-row-start: 2;
+    grid-row-end: 3;
+  }
+  #item3 {
+    grid-column-start: 1;
+    grid-row-start: 3;
+    grid-row-end: 4;
+  }
+  #item4 {
+    grid-column-start: 1;
+    grid-row-start: 4;
+    grid-row-end: 5;
+  }
+  #item5 {
+    grid-column-start: 1;
+    grid-row-start: 5;
+    grid-row-end: 6;
+  }
+  #item6 {
+    grid-column-start: 1;
+    grid-row-start: 6;
+    grid-row-end: 7;
+  }
+  
+  
+}
