@@ -10,6 +10,7 @@
 }
 #page-wrapper {
   margin-top: 80px;
+  margin-bottom: 80px;
   height: 250vh;
   width: 100%;
   position: relative;
@@ -18,12 +19,13 @@
   margin-left: 10%;
 }
 .right {
-  margin-left: 20%;
+  margin-left: 10%;
 }
 .content h1 {
   text-transform: capitalize;
   font-size: 1.5em;
   color: white;
+  margin-left: 30px;
 }
 .nav-left {
   display: flex;
@@ -64,14 +66,14 @@
   color: white;
   text-align: center;
   font-size: 18px;
-  padding: 20px;
+  padding: 10px;
   border-radius: 30px 10px 30px;
 }
 .img-right {
   margin-right: 30px;
   border: 8px;
   border-radius: 20px;
-  background-color: black;
+  /* background-color: black; */
 }
 .date-right {
   position: absolute;
@@ -83,7 +85,7 @@
   color: white;
   text-align: center;
   font-size: 18px;
-  padding: 20px;
+  padding: 10px;
   border-radius: 30px 10px 30px;
 }
 /*responsive for mobile */

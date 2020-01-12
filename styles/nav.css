@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Merriweather:400,900|Six+Caps");
-nav {
+nav{
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -14,8 +14,11 @@ nav {
   width: 100%;
   justify-content: flex-start;
   text-transform: uppercase;
+  letter-spacing: 2px;
+  line-height: 70px;
+  font-weight: bold;
   color: #a7a7a7;
-  font-size: 25px;
+  font-size: 1.5em;
   text-align: left;
   padding-left: 5%;
 }
@@ -47,7 +50,7 @@ label {
   padding: 3px 0px;
   margin: 0 28px;
   position: relative;
-  font-size: 1.6em;
+  font-size: 1.5em;
   clear: right;
   line-height: 70px;
 }
@@ -60,6 +63,9 @@ nav ul li a:hover {
   label {
     display: block;
     cursor: pointer;
+  }
+  .logo{
+    font-size:22px;
   }
   .nav-links {
     flex: none;
@@ -104,8 +110,8 @@ nav ul li a:hover {
     font-size: 14px;
     color: rgb(68, 55, 55);
   }
-  #toggle:checked + .nav-links {
+  /* #toggle:checked + .nav-links {
     display: block;
     background-color:white;
-  }
+  } */
 }
