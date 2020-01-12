@@ -11,7 +11,7 @@ body {
   padding: 20px;
   margin-top: 20px;
   padding: 60px 0;
-  height: 70vh;
+  height: 75vh;
   margin-bottom: 80px;
 }
 
@@ -75,6 +75,6 @@ textarea.contact-form-text {
 }
 @media screen and (max-width: 450px)  {
   .contact-section{
-   margin-bottom: 150px;
+   margin-bottom: 180px;
   }
 }

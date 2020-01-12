@@ -85,7 +85,7 @@
 
 @media screen and (max-width: 450px) {
   .portfolio{
-    height:85vh;
+    height:95vh;
   }
   .portfolio-title {
     font-size: 2rem;

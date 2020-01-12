@@ -60,7 +60,7 @@ h2 {
   /* background-image: url(../images/header-bg.png); */
   background-size: cover;
   background-position: center;
-  height: 90vh;
+  height: 50vh;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -75,11 +75,11 @@ h2 {
   justify-content: center;
   position: relative;
   margin-top: 165px;
-  
+  margin-bottom: 80px;
 }
 @media (min-width: 50em) {
   .welcome{
-    margin-top:150px;
+    margin-top:50px;
   }
 }
 .welcome h1 {
