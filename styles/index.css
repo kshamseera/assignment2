@@ -60,7 +60,7 @@ h2 {
   /* background-image: url(../images/header-bg.png); */
   background-size: cover;
   background-position: center;
-  height: 100vh;
+  height: 90vh;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -74,7 +74,6 @@ h2 {
   -ms-flex-pack: center;
   justify-content: center;
   position: relative;
-  margin-top: 165px;
   
 }
 @media (min-width: 50em) {
