@@ -4,12 +4,13 @@
 
 * {
   margin: 0;
+   box-sizing: border-box;
 }
 body {
   color: #a7a7a7;
   font-family: "Merriweather", serif;
   line-height: 1.6;
-  background: white;
+  /* background: white; */
   font-size: 0.875rem;
 
 }
@@ -37,7 +38,7 @@ h1 {
 @media (min-width: 50em) {
   
   h1 {
-    font-size: 4.25rem;
+    font-size: 3.5rem;
   }
 }
 
@@ -56,7 +57,7 @@ h2 {
   }
 }
 .welcome {
-  background-image: url(../images/header-bg.png);
+  /* background-image: url(../images/header-bg.png); */
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -73,11 +74,12 @@ h2 {
   -ms-flex-pack: center;
   justify-content: center;
   position: relative;
+  margin-top: 165px;
   
 }
 @media (min-width: 50em) {
   .welcome{
-    margin-top:100px;
+    margin-top:150px;
   }
 }
 .welcome h1 {
