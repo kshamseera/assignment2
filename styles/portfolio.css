@@ -9,9 +9,7 @@
   height:58vh;
   /* margin-top:50px; */
 }
-.title{
-  font-size: 3.5rem;
-}
+
 .portfolio-items {
   display: -webkit-box;
   display: -webkit-flex;
@@ -95,9 +93,7 @@
   .portfolio-desc {
     font-size:14px;
   }
-  .title{
-    font-size: 3rem;
-  }
+  
   #item1 {
     grid-column-start: 1;
     grid-row-end: 2;

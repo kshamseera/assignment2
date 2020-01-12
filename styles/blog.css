@@ -11,7 +11,7 @@
 #page-wrapper {
   margin-top: 80px;
   margin-bottom: 80px;
-  height: 250vh;
+  height: 350vh;
   width: 100%;
   position: relative;
 }
@@ -19,7 +19,7 @@
   margin-left: 10%;
 }
 .right {
-  margin-left: 10%;
+  margin-left: 20%;
 }
 .content h1 {
   text-transform: capitalize;
