@@ -10,18 +10,6 @@ nav{
   background: #223843;
   margin: 0;
 }
-.logo {
-  width: 100%;
-  justify-content: flex-start;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  line-height: 70px;
-  font-weight: bold;
-  color: #a7a7a7;
-  font-size: 1.5em;
-  text-align: left;
-  padding-left: 5%;
-}
 
 .nav-links {
   display: flex;
@@ -63,9 +51,6 @@ nav ul li a:hover {
   label {
     display: block;
     cursor: pointer;
-  }
-  .logo{
-    font-size:22px;
   }
   .nav-links {
     flex: none;
