@@ -130,8 +130,10 @@
   }
   .date{
     height:15vh;
+    width:12vh
   }
   .date-right{
     height:15vh;
+    width:12vh;
   }
 }
