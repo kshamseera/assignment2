@@ -93,7 +93,7 @@
   #page-wrapper {
     margin-top: 190px;
     height:auto;
-    margin-bottom: 70px;
+    margin-bottom: 70px;  
   }
   .container {
     width: 100%;
@@ -109,7 +109,7 @@
     margin-top: 20px;
     align-items: center;
     margin-left: 40px;
-    padding:10px;
+    padding:25px;
   }
   .nav-left {
     display: flex;
