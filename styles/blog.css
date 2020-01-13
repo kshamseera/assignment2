@@ -61,11 +61,11 @@
   left: 0;
   background-color: rgb(92, 5, 5);
   width: 10vh;
-  height: 7vh;
+  height: 8vh;
   color: white;
   text-align: center;
   font-size: 18px;
-  padding: 20px;
+  padding: 10px;
   border-radius: 30px 10px 30px;
 }
 .img-right {
@@ -80,11 +80,11 @@
   right: 0;
   background-color: rgb(92, 5, 5);
   width: 10vh;
-  height: 7vh;
+  height: 8vh;
   color: white;
   text-align: center;
   font-size: 18px;
-  padding: 20px;
+  padding: 10px;
   border-radius: 30px 10px 30px;
 }
 /*responsive for mobile */
