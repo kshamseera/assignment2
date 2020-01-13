@@ -13,4 +13,4 @@ The purpose of this assignment is to create a portfolio in the form of a website
 * Netlify
 
 #### Published Porftolio Website:
-https://vibrant-shaw-e75d9c.netlify.com/index.html
+https://vibrant-shaw-e75d9c.netlify.com/
