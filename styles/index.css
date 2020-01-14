@@ -7,11 +7,12 @@
    box-sizing: border-box;
 }
 body {
-  color: #a7a7a7;
+  color: #928d8d;
   font-family: "Merriweather", serif;
-  line-height: 1.6;
+  line-height: 1.8;
   /* background: white; */
   font-size: 0.875rem;
+  
 
 }
 @media (min-width: 50em) {
