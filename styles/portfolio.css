@@ -85,7 +85,7 @@
 
 @media screen and (max-width: 450px) {
   .portfolio{
-    height:100vh;
+    height:auto;
     margin-bottom:100px;
   }
   .portfolio-title {
